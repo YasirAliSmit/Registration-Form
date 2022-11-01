@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,600;1,400&family=Mukta:wght@200&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div id="form">
+
+    <form action="#">
+        <h2>Registration Form</h2>
+        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_b3f3m6cq.json"  background="transparent"  speed="0.5"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
+        <label >Surname:</label>
+<input type="text" class="input" id="surname"  placeholder="Enter Your Surname."  name="name"  >
+<br>
+<label >First Name:</label>
+<input type="text"  class="input" id="firstName" placeholder="Enter Your Name."  name="name"  >
+<br>
+<label >Other Name:</label>
+<input type="text"  class="input" id="otherName" placeholder="Enter Other Name."  name="name"  >
+<br>
+<label class="input" >Gender</label>
+<br>
+<input type="radio"  class="gender" name="gender" value="Male" required>
+<label for="html">Male</label>
+<input type="radio"  class="gender" name="gender" value="Female" required>
+<label for="css">Female</label><br>
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday" required>
+<br>
+<label >Nationality:</label>
+<input type="text" class="input"  placeholder="Enter Your Nationality." id="Nationality" name="" value="" >
+<br>
+<label >Email:</label>
+<input type="text" class="input"  placeholder="Enter Your Email." id="Email" name="" value="" >
+<br>
+<label >Password:</label>
+<input type="password" class="input"  placeholder="Enter Your Password." id="Password" name="" value="" >
+<ol>
+    <li>A password contains at least 11 characters,</li>
+    <li>including at least one number and includes both lower and uppercase letters and special characters,For Exmaple,Testing193!</li>
+</ol>
+
+<br>
+<label >Confirm Password:</label>
+<input type="password" class="input"  placeholder="Enter  Confirm Password." id="CPassword" name="" value="" >
+<br>
+<button type="Submit-button" id="btn" onclick="checkData()"  class="btn btn-outline-secondary">Registered</button>
+<button type="Submit-button" id="btnOne"  class="btn btn-outline-secondary">Refresh</button>
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>

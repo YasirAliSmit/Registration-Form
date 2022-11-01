@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  #form{
+  font-family: 'Inter Tight', sans-serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-variant: small-caps;
+  }
+  .input{
+  margin-top: 10px;
+  }
+  #btn{
+    float: right;
+    margin-top: 10px;
+  }
+  .swal-button{
+    background-color: grey ;
+  }
+  li{
+    list-style: none;
+    font-size: 10px;
+  }
+  #btnOne{
+    float: left;
+    margin-top: 10px;
+  }
+  input{
+    padding-left: 20px;
+  }

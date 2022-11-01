@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+</head>
+<style>
+    #loader{
+         margin-top: 300px;
+        margin-left: 600px;  
+        
+    }
+</style>
+<body>
+    
+<!-- 
+    transparent -->
+<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_pcyqh4qg.json" id="loader"  background="transparent"  speed="1"  style="width: 20%; height: 300px;"  loop  autoplay></lottie-player>
+
+
+    <script>
+const changePage=()=>{
+    setInterval(()=>{
+window.location.href='index.html'
+    },3000)
+}
+changePage()
+
+
+    </script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
